@@ -281,13 +281,13 @@ figure {
 }
 
 .scrolled .fh5co-nav a {
-  color: rgb(248, 242, 242);
+  color: #d8d3d3;
 }
 
 .scrolled .fh5co-nav ul li a:hover,
 .scrolled .fh5co-nav ul li a:focus,
 .scrolled .fh5co-nav ul li a:active {
-  color: #fdc7d0 !important;
+  color: #ffffff !important;
 }
 
 .scrolled .fh5co-nav ul li.active a {
