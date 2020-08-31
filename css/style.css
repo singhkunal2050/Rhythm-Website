@@ -2446,7 +2446,7 @@ figure {
 
 .about-authors .author .author-image-container {
   padding: 0 20px;
-  margin: 10px 20px 10px 5px; 
+  margin: 10px 20px 10px 5px;
   float: left;
 }
 
@@ -2483,6 +2483,16 @@ figure {
 
 }
 
+
+@media screen and (max-width: 480px) {
+
+  .about-authors .author {
+    margin: 50px 20px 10px 5px ;
+    padding: 10px;
+  }
+}
+
+
 @media screen and (max-width: 351px) {
 
   .about-authors .author .author-image-container .author-image {
@@ -2491,8 +2501,7 @@ figure {
 
   .about-authors .author .author-body p {
     font-size: .8em;
-  
+
   }
-  
 
 }
