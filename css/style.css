@@ -2508,4 +2508,8 @@ figure {
     font-size: .8em;
   }
 
+  .about-author{
+    margin: 10px auto;
+  }
+
 }
