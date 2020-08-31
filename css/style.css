@@ -273,7 +273,7 @@ figure {
 }
 
 .scrolled .fh5co-nav {
-  background: rgba(59, 59, 59, 0.568);
+  background: #00000091;
   padding: 10px 0;
   -webkit-box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.15);
@@ -2392,7 +2392,6 @@ figure {
 }
 
 
-
 @media screen and (max-width: 351px) {
 
   .fh5co-heading h2{
@@ -2402,5 +2401,71 @@ figure {
 }
 
 
+/* other than home page------------------------------------- */
+
+/* about page  */
+
+.parallax {
+  /* The image used */
+  background-image: url(../images/wallpaper.jpg);
+
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
+.about-authors{
+  display: flex;
+  flex-direction: column;
+}
+
+.authors{
+  margin: 100px 0 500px 0;
+}
+
+
+.about-authors .author{
+  margin: 50px;
+  padding: 20px;
+  background: #e9e9e9;
+  /* display: flex;
+  align-items:center; */
+  color:black;
+  border-radius: 8px;
+}
+
+.about-authors .author:nth-child(2){
+  flex-direction: row-reverse;
+} 
+
+.about-authors .author .author-image-container{
+  padding: 0 20px;
+  float: left;
+}
+
+.about-authors .author .author-image-container .author-image{
+  min-height: 110vh;
+  box-shadow: 2px 2px 20px black;
+  margin: 10px;
+}
+
+.about-authors .author .author-body .author-title{
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-authors .author .author-body p{
+  font-size: 1.1em;
+
+}
+
+@media screen and (max-width: 351px) {
+
+}
