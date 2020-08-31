@@ -2446,7 +2446,7 @@ figure {
 
 .about-authors .author .author-image-container {
   padding: 0 20px;
-  margin: 10px 20px 10px 5px;
+  margin: 10px 20px;
   float: left;
 }
 
@@ -2481,6 +2481,11 @@ figure {
     height: 100%;
   }
 
+  .about-authors .author .author-image-container {
+    margin: 10px auto;
+  }
+  
+
 }
 
 
@@ -2501,7 +2506,6 @@ figure {
 
   .about-authors .author .author-body p {
     font-size: .8em;
-
   }
 
 }
